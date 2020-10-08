@@ -3,6 +3,12 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=caidevOficial&show_icons=true&theme=tokyonight" />
 </a></br></br>
 
+```python
+def upgradeFunction:
+  message = "Upgrading my skills [Py Version!]"
+ return message
+```
+
 ## Tecnologías usadas al momento. 📌
 <table>
    <tbody>
