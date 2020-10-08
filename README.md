@@ -4,9 +4,9 @@
 </a></br></br>
 
 ```python
-def upgradeFunction:
-  message = "Upgrading my skills [Py Version!]"
-return message
+def upgradeFunction():
+    message = "Upgrading my skills [Py Version!]"
+    return message
 ```
 
 ## Tecnologías usadas al momento. 📌
