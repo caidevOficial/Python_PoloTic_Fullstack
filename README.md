@@ -14,8 +14,13 @@ def upgradeFunction():
    <tbody>
        <tr>
            <td><a href="https://www.python.org/downloads/" target="_blank">
-                   <img alt="Pyhton" src="https://github.com/caidevOficial/Logos/blob/master/py_logo1_1.png" width="50px" height="50px" /></td>
-           <td><a href="https://www.python.org/downloads/">Python</a></td>
+           <img align="center" alt="Pyhton" src="https://github.com/caidevOficial/Logos/blob/master/py_logo1_1.png" width="50px" height="50px" /></td>
+           <td><h3>Python</h3></td>
+       </tr>
+     <tr>
+           <td><a href="https://www.djangoproject.com/download/" target="_blank">
+                   <img alt="Django" src="https://github.com/caidevOficial/Logos/blob/master/Django_logo.png" width="85px" height="45px" /></td>
+           <td><h3>Django</h3></td>
        </tr>
    </tbody>
 </table>
