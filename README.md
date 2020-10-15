@@ -10,20 +10,12 @@ def upgradeFunction():
 ```
 
 ## Tecnologías usadas al momento. 📌
-<table>
-   <tbody>
-       <tr>
-           <td><a href="https://www.python.org/downloads/" target="_blank">
-           <img align="center" alt="Pyhton" src="https://github.com/caidevOficial/Logos/blob/master/py_logo1_1.png" width="50px" height="50px" /></td>
-           <td><h3>Python</h3></td>
-       </tr>
-     <tr>
-           <td><a href="https://www.djangoproject.com/download/" target="_blank">
-                   <img alt="Django" src="https://github.com/caidevOficial/Logos/blob/master/Django_logo.png" width="85px" height="45px" /></td>
-           <td><h3>Django</h3></td>
-       </tr>
-   </tbody>
-</table>
+<!-- Python -->
+|<a href="https://www.python.org/downloads/"><img align="center" alt="Pyhton" src="https://github.com/caidevOficial/Logos/blob/master/py_logo1_1.png" width="50px" height="50px" />|<h3>Python</h3>|
+|--------|----------|
+|<a href="https://www.djangoproject.com/download/"><img alt="Django" src="https://github.com/caidevOficial/Logos/blob/master/Django_logo.png" width="85px" height="45px" />|<h3>Django</h3>| <!-- Django -->
+|<a href="https://www.w3schools.com/html/"><img align="center" alt="Pyhton" src="https://github.com/caidevOficial/Logos/blob/master/html5.png" width="60px" height="70px" />|<h3>HTML5</h3>| <!-- HTML 5 -->
+|<a href="https://www.w3schools.com/css/"><img align="center" alt="Pyhton" src="https://github.com/caidevOficial/Logos/blob/master/css3.png" width="80px" height="70px" />|<h3>CSS3</h3>| <!-- CSS 3 -->
     
 ## Licencia 📄
 Este proyecto está bajo la Licencia [GNU GENERAL PUBLIC LICENSE v3.0] - mira el archivo [LICENSE.md](LICENSE) para detalles
