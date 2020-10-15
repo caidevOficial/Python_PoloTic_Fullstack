@@ -4,9 +4,12 @@ from django.http import HttpResponse
 
 def index(request):
     # recibo la request del http
-    return HttpResponse("¡Ohayou Sekai!")
+    #return HttpResponse("<h1 style=\"color:darkblue\">¡Ohayou Sekai!</h1>")
+    return render(request, "hola/index.html")
 
 def saludar(request,nombre):
-    return HttpResponse(f"¡Ohayou {nombre.capitalize()}!") 
+    #return HttpResponse(f"¡Ohayou {nombre.capitalize()}!") 
     #respuesta general para cada usuario (primera letra en mayuscula)
+    return render(request, "hola/saludar.html",{"nombre":nombre.capitalize()
+    })
 
