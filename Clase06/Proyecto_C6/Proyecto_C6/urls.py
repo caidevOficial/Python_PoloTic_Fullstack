@@ -19,5 +19,7 @@ from django.urls import path, include
 # Setear aca las distintas urls del proyecto
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('Tasks/',include("Tasks.urls")),
+    path('NewYear/',include("NewYear.urls")),
     path('hola/', include("PythonFT.urls")) # le permite que acceda al url.py de la app
 ]
