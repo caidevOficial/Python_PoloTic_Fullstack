@@ -16,10 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from django.config import settings
+from django.config.urls.static import static
+
 # Setear aca las distintas urls del proyecto
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('Tasks/',include("Tasks.urls")),
     path('NewYear/',include("NewYear.urls")),
     path('hola/', include("PythonFT.urls")) # le permite que acceda al url.py de la app
-]
+
+] +static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
