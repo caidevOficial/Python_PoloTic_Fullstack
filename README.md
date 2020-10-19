@@ -1,4 +1,4 @@
-<td><a href="https://polotic.misiones.gob.ar/" target="_blank"><img alt="Centro Universitario Vicente López" src="https://github.com/caidevOficial/Logos/blob/master/Instituciones/polo_logo_2020.png" width="330px" height="112px" /></td></br>
+<td><a href="https://polotic.misiones.gob.ar/" target="_blank"><img alt="PoloTic Misiones" src="https://github.com/caidevOficial/Logos/blob/master/Instituciones/polo_logo_2020.png" width="330px" height="112px" /></td></br>
 
 # Curso de Desarrollo web Full-stack con Python y Javascript - PoloTic Misiones. 👨‍💻
 <a href="https://github.com/caidevOficial/tp_laboratorio_1">
