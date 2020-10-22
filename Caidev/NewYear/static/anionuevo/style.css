@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    color: aliceblue;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: aliceblue;
+    text-align: center;
+}
+
