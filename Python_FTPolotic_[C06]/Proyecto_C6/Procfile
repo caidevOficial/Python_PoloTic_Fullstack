@@ -1,0 +1,1 @@
+web: gunicorn Proyecto_C6.wsgi --log-file -
