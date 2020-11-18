@@ -1,0 +1,12 @@
+{% extends "TaskManager/layout.html" %}
+
+{% block body %}    
+    <title>Add Task</title>
+        <h1>Agregar Tarea</h1>
+        <form action="{% url 'Tasks_App:agregar' %}" method="post">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit">
+        </form>    
+        <a href="{% url 'Tasks_App:index' %}">Ver tareas</a>
+{% endblock %}

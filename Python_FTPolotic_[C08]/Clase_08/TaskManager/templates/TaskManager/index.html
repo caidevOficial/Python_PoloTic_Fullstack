@@ -1,0 +1,10 @@
+{% extends "TaskManager/layout.html" %}
+{% block body %}
+
+    <ol>
+        {% for aTask in tasks %}
+            <li>{{aTask}}</li>
+        {% endfor %}
+    </ol>
+<a href="{% url 'Tasks_App:agregar' %}">Agregar nueva tarea</a>
+{% endblock %}
