@@ -12,13 +12,20 @@ def upgradeFunction():
 ```
 
 ## Tecnologías usadas al momento. 📌
+## Front-End:
+<!-- HTML 5 -->
+|<a href="https://www.w3schools.com/html/"><img align="center" alt="HTML5" src="https://github.com/caidevOficial/Logos/blob/master/Lenguajes/html5.png" width="60px" height="70px" />|<h3>HTML5</h3>|
+|--------|----------|
+|<a href="https://www.w3schools.com/css/"><img align="center" alt="CSS3" src="https://github.com/caidevOficial/Logos/blob/master/Lenguajes/css3.png" width="80px" height="70px" />|<h3>CSS3</h3>| <!-- CSS 3 -->
+|<a href="https://getbootstrap.com/"><img align="center" alt="Bootstrap" src="https://github.com/caidevOficial/Logos/blob/master/Lenguajes/bs_logo.png" width="80px" height="70px" />|<h3>Bootstrap</h3>| <!-- Bootstrap -->
+
+
+## Back-End:
 <!-- Python -->
 |<a href="https://www.python.org/downloads/"><img align="center" alt="Pyhton" src="https://github.com/caidevOficial/Logos/blob/master/Lenguajes/py_logo1_1.png" width="50px" height="50px" />|<h3>Python</h3>|
 |--------|----------|
 |<a href="https://www.djangoproject.com/download/"><img alt="Django" src="https://github.com/caidevOficial/Logos/blob/master/Lenguajes/Django_logo.png" width="85px" height="45px" />|<h3>Django</h3>| <!-- Django -->
-|<a href="https://www.w3schools.com/html/"><img align="center" alt="HTML5" src="https://github.com/caidevOficial/Logos/blob/master/Lenguajes/html5.png" width="60px" height="70px" />|<h3>HTML5</h3>| <!-- HTML 5 -->
-|<a href="https://www.w3schools.com/css/"><img align="center" alt="CSS3" src="https://github.com/caidevOficial/Logos/blob/master/Lenguajes/css3.png" width="80px" height="70px" />|<h3>CSS3</h3>| <!-- CSS 3 -->
-|<a href="https://getbootstrap.com/"><img align="center" alt="Bootstrap" src="https://github.com/caidevOficial/Logos/blob/master/Lenguajes/bs_logo.png" width="80px" height="70px" />|<h3>Bootstrap</h3>| <!-- Bootstrap -->
+|<a href="https://www.sqlite.org/index.html"><img alt="SQLite" src="https://github.com/caidevOficial/Logos/blob/master/Lenguajes/sqlite_logo.gif" width="85px" height="45px" />|<h3>SQLite</h3>| <!-- SQLite -->
     
 ## Licencia 📄
 Este proyecto está bajo la Licencia [GNU GENERAL PUBLIC LICENSE v3.0] - mira el archivo [LICENSE.md](LICENSE) para detalles
