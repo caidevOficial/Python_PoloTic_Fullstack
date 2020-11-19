@@ -8,7 +8,7 @@ from . import views
 # esta dentro de views.py
 
 # Setear aca todas las urls de la aplicacion
+app_name = 'NewYear'
 urlpatterns = [
-    path("", views.index, name="index")
-    #path("<str:nombre>", views.saludar, name="saludar")
+    path("", views.index, name="index"),
 ]

@@ -1,16 +1,19 @@
-{%load static%} <!-- Usar siempre esto en la primer linea al usar algo static -->
+{% load static %}
+<!-- Usar siempre esto en la primer linea al usar algo static -->
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <title>Es Año Nuevo?</title>
-    <link rel="stylesheet" href="{%static 'NewYear/estilo.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'NewYear/style.css' %}" />
 </head>
+
 <body>
     {% if NewYear %}
-        <h1>SI</h1>
+    <h1>Es Hoooy! Es Hoooy!, Feliz año nuevo!</h1>
     {% else %}
-        <h1>NO</h1>
-        <h3>Espero haberte ayudado :v</h3>
+    <h1>NO</h1>
+    <h3>Espero haberte ayudado. (>n.n)></h3>
     {% endif %}
 </body>
 </html>
