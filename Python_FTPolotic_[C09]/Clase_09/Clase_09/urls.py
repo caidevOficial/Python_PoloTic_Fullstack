@@ -20,5 +20,6 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('vuelos/',include("vuelos.urls")),
     path('NewYear/',include("NewYear.urls")),
-]+static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] +static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

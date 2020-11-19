@@ -24,14 +24,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'ba+%62h&x^&8bxig4(m=my2ukfoi2w%o1^ra$i2lse^$ov5=+x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'vuelos',
     'NewYear',
     'django.contrib.admin',
     'django.contrib.auth',
