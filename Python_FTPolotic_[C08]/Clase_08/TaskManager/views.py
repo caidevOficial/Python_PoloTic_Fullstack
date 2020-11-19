@@ -38,5 +38,5 @@ def agregar(request):
     })
 
 class FormNuevaTarea(forms.Form):
-    """FormNuevaTarea PAra escribir en el form."""
+    """FormNuevaTarea Para escribir en el form."""
     tarea = forms.CharField(label="Ingrese Tarea")
