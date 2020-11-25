@@ -11,4 +11,6 @@ from . import views
 app_name = 'NewYear'
 urlpatterns = [
     path("", views.index, name="index"),
+    path("index.html", views.index, name="index"),
+    path("answer.html", views.answer, name="answer"),
 ]

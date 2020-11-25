@@ -9,11 +9,11 @@
 </head>
 
 <body>
-    
-    <h3>Es año nuevo?</h3>
-    <h3>Clic en el boton para averiguarlo</h3>
-    <button align="center">
-        <a class="Boton-nav" onclick="location.href='answer.html'">averiguarlo</a>
-    </button>
+    {% if NewYear %}
+    <h1>Es Hoooy! Es Hoooy!, Feliz año nuevo!</h1>
+    {% else %}
+    <h1>NO</h1>
+    <h3>Espero haberte ayudado. (>n.n)></h3>
+    {% endif %}
 </body>
 </html>
