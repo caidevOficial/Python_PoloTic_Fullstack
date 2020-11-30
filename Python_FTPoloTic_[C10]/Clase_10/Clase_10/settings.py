@@ -76,16 +76,16 @@ WSGI_APPLICATION = 'Clase_10.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
-    #'default': {
-    #    'ENGINE': 'django.db.backends.sqlite3',
-    #    'NAME': BASE_DIR / 'db.sqlite3',
-    #}
     'default': {
-        'ENGINE' : 'django.db.backends.mysql',
-        'OPTIONS' : {
-            'read_default_file':'//etc//mysql//mariadb.cnf',
-        },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
+    #'default': {
+    #    'ENGINE' : 'django.db.backends.mysql',
+    #    'OPTIONS' : {
+    #        'read_default_file':'//etc//mysql//mariadb.cnf',
+    #    },
+    #}
 }
 
 
