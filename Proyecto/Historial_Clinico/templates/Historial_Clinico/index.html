@@ -1,0 +1,10 @@
+{% extends "Historial_Clinico/layout.html" %}
+{% block body %}
+
+    <ol>
+        {% for turno in Turnos %}
+            <li>{{turno}}</li>
+        {% endfor %}
+    </ol>
+<a href="{% url 'Turno_App:agregar' %}">Agregar nueva tarea</a>
+{% endblock %}
