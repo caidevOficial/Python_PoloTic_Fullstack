@@ -6,7 +6,7 @@
 <h4>
     <ul>
         {% for vuelo in Aerolinea %}
-        <li>{{vuelo.id}}: {{vuelo.origen}} a {{vuelo.destino}} duracion: {{vuelo.duracion}} hs.</li>
+        <li><a href="{% url 'Aerolinea:vuelo' vuelo.id %}">Vuelo {{vuelo.id}}</a>: {{vuelo.origen}} a {{vuelo.destino}} duracion: {{vuelo.duracion}} hs.</li>
         {% endfor %}
     </ul>
 </h4>

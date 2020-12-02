@@ -18,3 +18,11 @@ class Aerolinea(MD):
 
     def __str__(self):
         return (f"{self.id}: {self.origen} a {self.destino}")
+
+class Pasajero(MD):
+    nombre = models.CharField(max_length=64)
+    apellido = models.CharField(max_length=64)
+    vuelos = models.ManyToManyField(Aerolinea, blank=True, related_name="pasajeros")
+
+    def __str__(self):
+        return (f"Nombre: {self.nombre} | Apellido: {self.apellido}")

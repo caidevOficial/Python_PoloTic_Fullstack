@@ -1,0 +1,39 @@
+{% extends "Aerolinea/layout.html"%}
+
+{% block body %}
+<h1>Flights:</h1>
+<h3>Where do you want to go?</h3>
+<h3>Vuelo N°: {{vuelo.id}} </h3>
+<h4>
+    <ul>
+        <li>Origen: {{vuelo.origen}}. </li>
+        <li>Destino {{vuelo.destino}}. </li>
+        <li>Duracion: {{vuelo.duracion}} horas.</li>
+    </ul>
+</h4>
+<h3>Pasajeros</h3>
+
+<h4>
+    <ul>
+        {% for unPasajero in pasajeros %}
+        <li>{{unPasajero}}</li>
+        {% empty %}
+        <li>No hay pasajeros</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'Aerolinea:index' %}">Volver a vuelos</a>
+</h4>   
+<h4> 
+    <form action="{% url 'Aerolinea:reservar' vuelo.id %}" method="post">
+        
+        {% csrf_token %}
+        
+        <select name="pasajero" id="">
+            {% for unPasajero in noSonPasajeros %}
+                <option value="{{unPasajero.id}}"> {{unPasajero}} </option>
+            {% endfor %}
+        </select>
+        <input type="submit">
+    </form>
+</h4>
+    {% endblock body %}
