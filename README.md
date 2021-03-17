@@ -1,4 +1,13 @@
-<td><a href="https://polotic.misiones.gob.ar/" target="_blank"><img alt="PoloTic Misiones" src="https://github.com/caidevOficial/Logos/blob/master/Instituciones/polo_logo_2020.png" width="330px" height="112px" /></td></br>
+<table>
+  <tr>
+    <td><a href="https://polotic.misiones.gob.ar/" target="_blank"><img alt="PoloTic Misiones" src="https://github.com/caidevOficial/Logos/blob/master/Instituciones/polo_logo_2020.png" width="330px" height="112px" /></td>
+  <td>
+  <img alt="Python" src="https://github.com/devicons/devicon/raw/master/icons/python/python-original.svg?raw=true" height="112px" /></td>
+    <td>
+  <img alt="JS" src="https://github.com/caidevOficial/Logos/raw/master/Lenguajes/logo-js.png" height="112px" /></td>
+  </tr>
+  </table>
+  </br>
 
 # Python & Javascript Full-Stack Web Development - PoloTic Misiones. 👨‍💻
 <a href="https://github.com/caidevOficial/PoloTic_FTPython">
