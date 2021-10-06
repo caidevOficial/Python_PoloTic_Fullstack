@@ -33,7 +33,7 @@ mock==4.0.2
 moviepy==1.0.3
 numpy==1.19.2
 packaging==20.4
-Pillow==8.1.1
+Pillow==8.3.2
 pluggy==0.13.1
 proglog==0.1.9
 py==1.9.0
