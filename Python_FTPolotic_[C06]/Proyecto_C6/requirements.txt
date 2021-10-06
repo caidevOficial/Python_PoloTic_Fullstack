@@ -46,7 +46,7 @@ python-decouple==3.3
 python-telegram-handler==2.2
 pyttsx3==2.90
 pytz==2020.1
-pywin32==228
+pywin32==301
 PyYAML==5.4
 requests==2.22.0
 requests-toolbelt==0.9.1
